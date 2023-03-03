@@ -22,15 +22,13 @@ $py-std: 3rem;
 
 
 /* Globale klasser */
-
-html {
-    scroll-behavior: smooth;
-} 
-body {
+.natlab {
     font-family: $font-primary;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     background: black;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 h1,
 h2,
